@@ -1,10 +1,8 @@
-### Use the [lerna template](https://github.com/salesforcecli/lerna-template) if you need a library and plugin
-
-### This template is useful if the library is already in another repository or the plugin is a wrapper around an API.
+**NOTE: This template for sf plugins is not yet offical. Please consult with the Platform CLI team before using this template.**
 
 # plugin-&lt;REPLACE ME&gt;
 
-[![NPM](https://img.shields.io/npm/v/@salesforce/plugin-template.svg?label=@salesforce/plugin-template)](https://www.npmjs.com/package/@salesforce/plugin-template) [![CircleCI](https://circleci.com/gh/salesforcecli/plugin-template/tree/main.svg?style=shield)](https://circleci.com/gh/salesforcecli/plugin-template/tree/main) [![Downloads/week](https://img.shields.io/npm/dw/@salesforce/plugin-template.svg)](https://npmjs.org/package/@salesforce/plugin-template) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://raw.githubusercontent.com/salesforcecli/plugin-template/main/LICENSE.txt)
+[![NPM](https://img.shields.io/npm/v/@salesforce/plugin-template-sf.svg?label=@salesforce/plugin-template-sf)](https://www.npmjs.com/package/@salesforce/plugin-template-sf) [![CircleCI](https://circleci.com/gh/salesforcecli/plugin-template-sf/tree/main.svg?style=shield)](https://circleci.com/gh/salesforcecli/plugin-template-sf/tree/main) [![Downloads/week](https://img.shields.io/npm/dw/@salesforce/plugin-template-sf.svg)](https://npmjs.org/package/@salesforce/plugin-template-sf) [![License](https://img.shields.io/badge/License-BSD%203--Clause-brightgreen.svg)](https://raw.githubusercontent.com/salesforcecli/plugin-template-sf/main/LICENSE.txt)
 
 Change above to <REPLACE_ME> before finalizing
 
@@ -12,17 +10,13 @@ Change above to <REPLACE_ME> before finalizing
 
 This repository provides a template for creating a plugin for the Salesforce CLI. To convert this template to a working plugin:
 
-1. Clone this repo
-2. Delete the .git folder
-3. Replace filler values
+1. Replace filler values
    a) Every instance of `<REPLACE_ME>` can be directly substitued for the name of the new plugin. However beware, things like github paths are for the salesforcecli Github organization
    b) Search for case-matching `REPLACE` to find other filler values, such as for the plugin description
-4. Use `git init` to set up the desired git information
-5. Follow the getting started steps below until the `sfdx hello:org` commmand is functioning
 
 &lt;REPLACE ME DESCRIPTION END&gt;
 
-## Learn about the plugin-template
+## Learn about the plugin-template-sf
 
 Salesforce CLI plugins are based on the [oclif plugin framework](<(https://oclif.io/docs/introduction.html)>). Read the [plugin developer guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_plugins.meta/sfdx_cli_plugins/cli_plugins_architecture_sf_cli.htm) to learn about Salesforce CLI plugin development.
 
@@ -39,7 +33,7 @@ We always recommend using the latest version of these commands bundled with the 
 ## Install
 
 ```bash
-sfdx plugins:install <REPLACE_ME>@x.y.z
+sf plugins:install <REPLACE_ME>@x.y.z
 ```
 
 ## Issues
@@ -78,62 +72,55 @@ yarn install
 yarn build
 ```
 
-To use your plugin, run using the local `./bin/run` or `./bin/run.cmd` file.
+To use your plugin, run using the local `./bin/dev` or `./bin/dev.cmd` file.
 
 ```bash
 # Run using local run file.
-./bin/run <REPLACE_ME>
+./bin/dev <REPLACE_ME>
 ```
 
 There should be no differences when running via the Salesforce CLI or using the local run file. However, it can be useful to link the plugin to do some additional testing or run your commands from anywhere on your machine.
 
 ```bash
-# Link your plugin to the sfdx cli
-sfdx plugins:link .
+# Link your plugin to the sf cli
+sf plugins:link .
 # To verify
-sfdx plugins
+sf plugins
 ```
 
 ## Commands
 
 <!-- commands -->
 
-- [`sfdx hello:org [-n <string>] [-f] [-v <string>] [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`](#sfdx-helloorg--n-string--f--v-string--u-string---apiversion-string---json---loglevel-tracedebuginfowarnerrorfataltracedebuginfowarnerrorfatal)
+- [`sf hello world`](#sf-hello-world)
 
-## `sfdx hello:org [-n <string>] [-f] [-v <string>] [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`
+## `sf hello world`
 
-print a greeting and your org IDs
+Say hello either to the world or someone you know.
 
 ```
 USAGE
-  $ sfdx hello:org [-n <string>] [-f] [-v <string>] [-u <string>] [--apiversion <string>] [--json] [--loglevel
-  trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]
+  $ sf hello world [--json] [-n <value>]
 
-OPTIONS
-  -f, --force                                                                       example boolean flag
-  -n, --name=name                                                                   name to print
+FLAGS
+  -n, --name=<value>  [default: World] The name of the person you'd like to say hello to.
 
-  -u, --targetusername=targetusername                                               username or alias for the target
-                                                                                    org; overrides default target org
+GLOBAL FLAGS
+  --json  Format output as json.
 
-  -v, --targetdevhubusername=targetdevhubusername                                   username or alias for the dev hub
-                                                                                    org; overrides default dev hub org
+DESCRIPTION
+  Say hello either to the world or someone you know.
 
-  --apiversion=apiversion                                                           override the api version used for
-                                                                                    api requests made by this command
-
-  --json                                                                            format output as json
-
-  --loglevel=(trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL)  [default: warn] logging level for
-                                                                                    this command invocation
+  Say hello either to the world or someone you know.
 
 EXAMPLES
-  $ sfdx hello:org --targetusername myOrg@example.com --targetdevhubusername devhub@org.com
-     Hello world! This is org: MyOrg and I will be around until Tue Mar 20 2018!
-     My hub org id is: 00Dxx000000001234
+  Say hello to the world:
 
-  $ sfdx hello:org --name myname --targetusername myOrg@example.com
-     Hello myname! This is org: MyOrg and I will be around until Tue Mar 20 2018!
+    $ sf hello world
+
+  Say hello to someone you know:
+
+    $ sf hello world --name Astro
 ```
 
 <!-- commandsstop -->
