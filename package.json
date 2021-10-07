@@ -82,6 +82,12 @@
       "@oclif/plugin-command-snapshot",
       "@salesforce/plugin-command-reference"
     ],
+    "hooks": {
+      "sf:deploy": "./hooks/deploy",
+      "sf:logout": "./hooks/logout",
+      "sf:env:list": "./hooks/envList",
+      "sf:env:display": "./hooks/envDisplay"
+    },
     "topics": {
       "hello": {
         "description": "Commands to say hello."
