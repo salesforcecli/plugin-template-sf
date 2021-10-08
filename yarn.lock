@@ -469,7 +469,7 @@
     debug "^4.1.1"
     semver "^7.3.2"
 
-"@oclif/config@^1", "@oclif/config@^1.12.8", "@oclif/config@^1.15.1", "@oclif/config@^1.17.0":
+"@oclif/config@^1.12.8", "@oclif/config@^1.15.1", "@oclif/config@^1.17.0":
   version "1.17.0"
   resolved "https://registry.npmjs.org/@oclif/config/-/config-1.17.0.tgz#ba8639118633102a7e481760c50054623d09fcab"
   integrity sha512-Lmfuf6ubjQ4ifC/9bz1fSCHc6F6E653oyaRXxg+lgT4+bYf9bk+nqrUpAbrXyABkCqgIBiFr3J4zR/kiFdE1PA==
@@ -582,13 +582,12 @@
     chalk "^2.4.2"
     tslib "^1.9.3"
 
-"@oclif/plugin-command-snapshot@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-command-snapshot/-/plugin-command-snapshot-2.2.2.tgz#2da73d06886e8b74c5e95f7369562d795dcfa5a2"
-  integrity sha512-8ujiuGTncfVEbIM4mtOe/PzBaE8m2Bgr13ILxSFf/ZRUVNPs/DSG2DlmxUUf2kpmMhKD7U4lGVqI4em+TJsBiQ==
+"@oclif/plugin-command-snapshot@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/@oclif/plugin-command-snapshot/-/plugin-command-snapshot-3.1.0.tgz#903f15c9d52d76da538aec880de6f31509a2169d"
+  integrity sha512-51deu59gxFAJZZ8y2E1BYcVF7+3bv6eF2HUFwDl57mvPK2+pmfCBzd9DsBnVwSt9p7d3t9P5br9GFc1zHh38XQ==
   dependencies:
-    "@oclif/command" "^1.6.0"
-    "@oclif/config" "^1"
+    "@oclif/core" "^1.0.1"
     chalk "^4.1.1"
     just-diff "^3.1.1"
     semver "^7.3.5"
