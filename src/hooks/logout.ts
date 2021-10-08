@@ -7,13 +7,13 @@
 
 import { Deauthorizer, SfHook } from '@salesforce/sf-plugins-core';
 
-type MyEnv = {
+export type MyEnv = {
   username: string;
   id: string;
   alias?: string;
 };
 
-class MyEnvDeauthorizer extends Deauthorizer<MyEnv> {
+export class MyEnvDeauthorizer extends Deauthorizer<MyEnv> {
   // eslint-disable-next-line @typescript-eslint/require-await
   public async find(): Promise<Record<string, MyEnv>> {
     return {

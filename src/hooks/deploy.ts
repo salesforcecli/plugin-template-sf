@@ -29,7 +29,7 @@ class MyEnvDeployable extends Deployable {
   }
 }
 
-class MyEnvDeployer extends Deployer {
+export class MyEnvDeployer extends Deployer {
   public static NAME = 'Salesforce MyEnvs';
 
   private username!: string;

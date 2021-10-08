@@ -7,7 +7,7 @@
 
 import { SfHook } from '@salesforce/sf-plugins-core';
 
-type MyEnv = {
+export type MyEnv = {
   username: string;
   id: string;
   alias?: string;
