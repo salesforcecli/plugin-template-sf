@@ -40,6 +40,8 @@ workflows:
           filters:
             branches:
               ignore: main
+      - release-management/test-plugin-inclusion:
+          target_cli: sf
       - release-management/test-package:
           matrix:
             parameters:
