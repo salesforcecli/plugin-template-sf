@@ -9,12 +9,7 @@ import { Flags } from '@oclif/core';
 import { SfCommand } from '@salesforce/sf-plugins-core';
 import { Messages } from '@salesforce/core';
 
-// Initialize Messages with the current plugin directory
 Messages.importMessagesDirectory(__dirname);
-
-// Load the specific messages for this file. Messages from @salesforce/command, @salesforce/core,
-// or any library that is using the messages framework can also be loaded this way.
-// TODO: replace the package name with your new package's name
 const messages = Messages.loadMessages('@salesforce/plugin-template-sf', 'hello.world');
 
 export type HelloWorldResult = {
