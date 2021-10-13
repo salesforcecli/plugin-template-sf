@@ -5,7 +5,7 @@
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
 
-import { Deauthorizer, SfHook } from '@salesforce/sf-plugins-core';
+import { Deauthorizer, SfHook } from '@sf/spc';
 
 export type MyEnv = {
   username: string;

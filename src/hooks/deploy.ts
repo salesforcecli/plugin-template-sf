@@ -5,7 +5,7 @@
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
 import { basename } from 'path';
-import { Deployable, Deployer, generateTableChoices, SfHook } from '@salesforce/sf-plugins-core';
+import { Deployable, Deployer, generateTableChoices, SfHook } from '@sf/spc';
 
 class MyEnvDeployable extends Deployable {
   public constructor(public myEnvDir: string, private parent: Deployer) {

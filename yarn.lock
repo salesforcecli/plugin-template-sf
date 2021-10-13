@@ -890,6 +890,7 @@
   integrity sha512-6D7DvE6nFxpLyyTnrOIbbAeCJw2r/EpinFAcMh6gU0gA/CGfSbwV/8uR3uHLYL2zCyCZLH8jJ4dZ3BzCMqc+Eg==
 
 "@salesforce/sf-plugins-core@^1.0.0", "@sf/spc@npm:@salesforce/sf-plugins-core@^1.0.3":
+  name "@sf/spc"
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@salesforce/sf-plugins-core/-/sf-plugins-core-1.0.3.tgz#2e8bd7792d0e296ceb2fd3fe5f837829309bf20d"
   integrity sha512-XbpGflrOANZsEs+nYr/BDpr5npqAehb7Nzc3SinsR26Pcr1XI6I40s5XdsNDznF3X45E+u5o6lnWJds/raC/ng==

@@ -6,7 +6,7 @@
  */
 
 import { Flags } from '@oclif/core';
-import { SfCommand } from '@salesforce/sf-plugins-core';
+import { SfCommand } from '@sf/spc';
 import { Messages } from '@salesforce/core';
 
 Messages.importMessagesDirectory(__dirname);
