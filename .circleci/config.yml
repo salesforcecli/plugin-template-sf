@@ -34,6 +34,7 @@ workflows:
     when: << pipeline.parameters.run-auto-workflows >>
     jobs:
       - release-management/validate-pr:
+          context: sf-cli-bot
           filters:
             branches:
               ignore: main
