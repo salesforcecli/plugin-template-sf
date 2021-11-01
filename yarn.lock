@@ -642,10 +642,10 @@
   resolved "https://registry.npmjs.org/@oclif/screen/-/screen-1.0.4.tgz#b740f68609dfae8aa71c3a6cab15d816407ba493"
   integrity sha512-60CHpq+eqnTxLZQ4PGHYNwUX572hgpMHGPtTWMjdTMsAvlm69lZV/4ly6O3sAYkomo4NggGcomrDpBe34rxUqw==
 
-"@oclif/test@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/@oclif/test/-/test-2.0.0.tgz#88fcbbc9e91fa8ed0bb4e7770387ead811b52f2b"
-  integrity sha512-DNMhGCKX1b3k/rCNmmTxftXNw0luiCDDfkvh/bEWsZN8PoyhN9Na/zJvzaB1eWbKXSg5qzkTpWpOc2AjYA6rMQ==
+"@oclif/test@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.0.1.tgz#dd2ad4e5756b498ac3f6a1ad0ed9c36fd56b7590"
+  integrity sha512-icRTHg0yjYNKEJ6IU6QqXusu6X9n60ivh7iXe075VGunZc3vR2OsWTu8MXjF4Btds99sEKHRWE+ucHDIqwQsHA==
   dependencies:
     fancy-test "^1.4.3"
 
