@@ -72,6 +72,7 @@
     "sf"
   ],
   "license": "BSD-3-Clause",
+  "main": "lib/index.js",
   "oclif": {
     "commands": "./lib/commands",
     "bin": "sf",
