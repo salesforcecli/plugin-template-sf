@@ -70,7 +70,6 @@ workflows:
           requires:
             - release-management/test-package
       - release-management/release-package:
-          sign: true
           github-release: true
           requires:
             - release-management/test-package
