@@ -9,8 +9,18 @@
 This repository provides a template for creating a plugin for the Salesforce CLI. To convert this template to a working plugin:
 
 1. Please get in touch with the Platform CLI team. We want to help you develop your plugin.
-2. Replace all instances of `plugin-template-sf` with the name of your plugin. All plugin names must start with `plugin-`
-3. When you're ready, replace the contents of this README with the information you want.
+2. Generate your plugin:
+
+   ```
+   sf plugins install dev
+   sf dev generate plugin
+
+   git init -b main
+   git add . && git commit -m "chore: initial commit"
+   ```
+
+3. Create your plugin's repo in the salesforcecli github org
+4. When you're ready, replace the contents of this README with the information you want.
 
 ## Learn about `sf` plugins
 
