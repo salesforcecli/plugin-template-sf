@@ -24,7 +24,7 @@ Additionally, there are some additional tests that the Salesforce CLI will enfor
 
 - [@salesforce/core](https://github.com/forcedotcom/sfdx-core)
 - [@salesforce/kit](https://github.com/forcedotcom/kit)
-- [@salesforce/sf-plugins-core](https://github.com/salesforcecli/sf-plugis-core)
+- [@salesforce/sf-plugins-core](https://github.com/salesforcecli/sf-plugins-core)
 - [@salesforce/ts-types](https://github.com/forcedotcom/ts-types)
 - [@salesforce/ts-sinon](https://github.com/forcedotcom/ts-sinon)
 - [@salesforce/dev-config](https://github.com/forcedotcom/dev-config)
