@@ -34,6 +34,7 @@ workflows:
                 - latest
           requires:
             - release-management/test-package
+          context: na40-auth-url
       - release-management/release-package:
           github-release: true
           requires:
@@ -41,6 +42,7 @@ workflows:
           filters:
             branches:
               only: main
+          context: release
   test-ts-update:
     triggers:
       - schedule:
