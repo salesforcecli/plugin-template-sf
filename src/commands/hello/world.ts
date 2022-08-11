@@ -24,7 +24,7 @@ export default class World extends SfCommand<HelloWorldResult> {
   public static flags = {
     name: Flags.string({
       char: 'n',
-      description: messages.getMessage('flags.name.description'),
+      summary: messages.getMessage('flags.name.description'),
       default: 'World',
     }),
   };
