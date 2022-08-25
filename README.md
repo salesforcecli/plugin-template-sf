@@ -1,4 +1,4 @@
-**NOTE: This template for sf plugins is not yet offical. Please consult with the Platform CLI team before using this template.**
+**NOTE: This template for sf plugins is not yet official. Please consult with the Platform CLI team before using this template.**
 
 # plugin-template-sf
 
