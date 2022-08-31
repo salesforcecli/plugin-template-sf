@@ -13,7 +13,7 @@ const messages = Messages.load('@salesforce/plugin-template-sf', 'hello.world', 
   'summary',
   'description',
   'examples',
-  'flags.name.description',
+  'flags.name.summary',
 ]);
 
 export type HelloWorldResult = {
@@ -29,7 +29,7 @@ export default class World extends SfCommand<HelloWorldResult> {
   public static flags = {
     name: Flags.string({
       char: 'n',
-      description: messages.getMessage('flags.name.description'),
+      summary: messages.getMessage('flags.name.summary'),
       default: 'World',
     }),
   };

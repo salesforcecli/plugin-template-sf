@@ -6,7 +6,7 @@ Say hello.
 
 Say hello either to the world or someone you know.
 
-# flags.name.description
+# flags.name.summary
 
 The name of the person you'd like to say hello to.
 
