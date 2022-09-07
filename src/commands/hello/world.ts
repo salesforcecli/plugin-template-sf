@@ -14,6 +14,7 @@ const messages = Messages.load('@salesforce/plugin-template-sf', 'hello.world', 
   'description',
   'examples',
   'flags.name.summary',
+  'info.hello',
 ]);
 
 export type HelloWorldResult = {
@@ -37,8 +38,7 @@ export default class World extends SfCommand<HelloWorldResult> {
   public async run(): Promise<HelloWorldResult> {
     const { flags } = await this.parse(World);
     const time = new Date().toDateString();
-    const message = `Hello ${flags.name} at ${time}`;
-    this.log(message);
+    this.log(messages.getMessage('info.hello', [flags.name, time]));
     return {
       name: flags.name,
       time,

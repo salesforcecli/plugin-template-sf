@@ -19,3 +19,7 @@ The name of the person you'd like to say hello to.
 - Say hello to someone you know:
 
   <%= config.bin %> <%= command.id %> --name Astro
+
+# info.hello
+
+Hello %s at %s.
