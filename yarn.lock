@@ -968,10 +968,10 @@
     strip-ansi "6.0.1"
     ts-retry-promise "^0.7.0"
 
-"@salesforce/core@^3.19.2", "@salesforce/core@^3.20.1", "@salesforce/core@^3.25.0", "@salesforce/core@^3.8.0":
-  version "3.26.2"
-  resolved "https://registry.npmjs.org/@salesforce/core/-/core-3.26.2.tgz#94b361bd62967feb3eedc624fc6cf444e7347f84"
-  integrity sha512-GDrho8jbh1UDjcsYRRUzhNv4KUsMcBtux/yEqB2ycvHXhjVnrNkJcl99KESiU1eZMl2DGZEE1IO8yxnb2rSvgg==
+"@salesforce/core@^3.19.2", "@salesforce/core@^3.20.1", "@salesforce/core@^3.25.0", "@salesforce/core@^3.30.2", "@salesforce/core@^3.8.0":
+  version "3.30.2"
+  resolved "https://registry.yarnpkg.com/@salesforce/core/-/core-3.30.2.tgz#fe7bd430e98b358003cf8892a753aaee88e3fd7f"
+  integrity sha512-MSDCbml/HOF8ZIMnYBQLnilXRTxOLnE8EJdCnO9XjIwMG8x9mVvn7EQEMxAS4G+e5oqXfpMtgxEN1fFJY/dbcA==
   dependencies:
     "@salesforce/bunyan" "^2.0.0"
     "@salesforce/kit" "^1.5.41"
@@ -3535,12 +3535,7 @@ globby@^11.0.1, globby@^11.0.3, globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.5, graceful-fs@^4.2.6, graceful-fs@^4.2.9:
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
-  integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
-
-graceful-fs@^4.1.6, graceful-fs@^4.2.0:
+graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.5, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.6, graceful-fs@^4.2.9:
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
