@@ -1,0 +1,66 @@
+version: 2.1
+
+orbs:
+  release-management: salesforce/npm-release-management@4
+
+workflows:
+  test-and-release:
+    jobs:
+      - release-management/validate-pr:
+          filters:
+            branches:
+              ignore: main
+      - release-management/test-plugin-inclusion:
+          target_cli: sf
+      - release-management/test-package:
+          matrix:
+            parameters:
+              os:
+                - linux
+                - windows
+              node_version:
+                - latest
+                - lts
+                - maintenance
+      - release-management/test-nut:
+          matrix:
+            parameters:
+              os:
+                - linux
+                - windows
+              sfdx_version:
+                - latest
+              node_version:
+                - latest
+          requires:
+            - release-management/test-package
+          context: na40-auth-url
+      - release-management/release-package:
+          github-release: true
+          requires:
+            - release-management/test-package
+          filters:
+            branches:
+              only: main
+          context: release
+  test-ts-update:
+    triggers:
+      - schedule:
+          cron: 0 0 * * *
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - release-management/test-ts-update
+  dependabot-automerge:
+    triggers:
+      - schedule:
+          cron: '0 2,5,8,11 * * *'
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - release-management/dependabot-automerge:
+          context: release
