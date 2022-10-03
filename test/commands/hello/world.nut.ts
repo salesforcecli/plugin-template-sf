@@ -13,7 +13,7 @@ let testSession: TestSession;
 
 describe('hello world NUTs', () => {
   before('prepare session', async () => {
-    testSession = await TestSession.create({ authStrategy: 'NONE' });
+    testSession = await TestSession.create();
   });
 
   after(async () => {
@@ -21,14 +21,13 @@ describe('hello world NUTs', () => {
   });
 
   it('should say hello to the world', () => {
-    const { result } = execCmd<HelloWorldResult>('hello world --json', { ensureExitCode: 0, cli: 'sf' }).jsonOutput;
+    const { result } = execCmd<HelloWorldResult>('hello world --json', { ensureExitCode: 0 }).jsonOutput;
     expect(result.name).to.equal('World');
   });
 
   it('should say hello to a given person', () => {
     const { result } = execCmd<HelloWorldResult>('hello world --name Astro --json', {
       ensureExitCode: 0,
-      cli: 'sf',
     }).jsonOutput;
     expect(result.name).to.equal('Astro');
   });
