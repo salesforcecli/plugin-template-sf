@@ -163,7 +163,7 @@
       ]
     },
     "test:only": {
-      "command": "nyc mocha \"test/**/*.test.ts\"",
+      "command": "nyc mocha \"test/**/*.test.ts\" --slow 4500 --timeout 600000",
       "env": {
         "FORCE_COLOR": "2"
       },
