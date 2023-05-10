@@ -21,14 +21,14 @@ describe('hello world NUTs', () => {
   });
 
   it('should say hello to the world', () => {
-    const { result } = execCmd<HelloWorldResult>('hello world --json', { ensureExitCode: 0 }).jsonOutput;
-    expect(result.name).to.equal('World');
+    const result = execCmd<HelloWorldResult>('hello world --json', { ensureExitCode: 0 }).jsonOutput?.result;
+    expect(result?.name).to.equal('World');
   });
 
   it('should say hello to a given person', () => {
-    const { result } = execCmd<HelloWorldResult>('hello world --name Astro --json', {
+    const result = execCmd<HelloWorldResult>('hello world --name Astro --json', {
       ensureExitCode: 0,
-    }).jsonOutput;
-    expect(result.name).to.equal('Astro');
+    }).jsonOutput?.result;
+    expect(result?.name).to.equal('Astro');
   });
 });
