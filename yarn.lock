@@ -951,7 +951,7 @@
     strip-ansi "6.0.1"
     ts-retry-promise "^0.7.0"
 
-"@salesforce/core@^3.32.12", "@salesforce/core@^3.33.4", "@salesforce/core@^3.34.4", "@salesforce/core@^3.36.1", "@salesforce/core@^3.36.2":
+"@salesforce/core@^3.32.12", "@salesforce/core@^3.34.4", "@salesforce/core@^3.36.1", "@salesforce/core@^3.36.2":
   version "3.36.2"
   resolved "https://registry.yarnpkg.com/@salesforce/core/-/core-3.36.2.tgz#135fa2fb858da6245b9ecff1e7819aeaeead5150"
   integrity sha512-IS1rR6Y0tMJYx/+TOAUQ9Gs+Vtum0MHLGfodT7ZJMQZQHEp1S4o0BJ8676uq5sASAnVL64GA+Et/LWCCOWWEuw==
@@ -1498,7 +1498,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/utils@5.59.7", "@typescript-eslint/utils@^5.53.0":
+"@typescript-eslint/utils@5.59.7", "@typescript-eslint/utils@^5.59.7":
   version "5.59.7"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.59.7.tgz#7adf068b136deae54abd9a66ba5a8780d2d0f898"
   integrity sha512-yCX9WpdQKaLufz5luG4aJbOpdXf/fjwGMcLFXZVPUz3QqLirG5QcwwnIHNf8cjLjxK4qtzTO8udUtMQSAToQnQ==
@@ -3082,13 +3082,13 @@ eslint-plugin-prefer-arrow@^1.2.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-prefer-arrow/-/eslint-plugin-prefer-arrow-1.2.3.tgz#e7fbb3fa4cd84ff1015b9c51ad86550e55041041"
   integrity sha512-J9I5PKCOJretVuiZRGvPQxCbllxGAV/viI20JO3LYblAodofBxyMnZAJ+WGeClHgANnSJberTNoFWWjrWKBuXQ==
 
-eslint-plugin-sf-plugin@^1.9.2:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sf-plugin/-/eslint-plugin-sf-plugin-1.9.2.tgz#263312772941bdfd8a809c8dde128af311ef140e"
-  integrity sha512-TKNciXOcxpC6a9QPtHZw1upi+jlxl1RYm6HFSv/CoqH9Q4aMm7AFKzSQiPemwQbXL0ji12EwvHfNezpYx/Y85Q==
+eslint-plugin-sf-plugin@^1.15.4:
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sf-plugin/-/eslint-plugin-sf-plugin-1.15.4.tgz#9799ab5fcf339cd98c011122d1ed45d5a86e7abd"
+  integrity sha512-AOZcIjt1eoSwGWEkMrNs+LNcRmkIEccqUpEU3JskbKfBfeaZXDc5jPb9pMCj34Z6/jqP1QmdvO+Lp3RdyCjeTA==
   dependencies:
-    "@salesforce/core" "^3.33.4"
-    "@typescript-eslint/utils" "^5.53.0"
+    "@salesforce/core" "^3.36.1"
+    "@typescript-eslint/utils" "^5.59.7"
 
 eslint-scope@^5.1.1:
   version "5.1.1"
