@@ -9,13 +9,7 @@ import { SfCommand, Flags } from '@salesforce/sf-plugins-core';
 import { Messages } from '@salesforce/core';
 
 Messages.importMessagesDirectory(__dirname);
-const messages = Messages.load('@salesforce/plugin-template-sf', 'hello.world', [
-  'summary',
-  'description',
-  'examples',
-  'flags.name.summary',
-  'info.hello',
-]);
+const messages = Messages.loadMessages('@salesforce/plugin-template-sf', 'hello.world');
 
 export type HelloWorldResult = {
   name: string;
