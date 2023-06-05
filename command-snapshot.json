@@ -3,6 +3,8 @@
     "command": "hello:world",
     "plugin": "@salesforce/plugin-template-sf",
     "flags": ["json", "name"],
-    "alias": []
+    "alias": [],
+    "flagChars": ["n"],
+    "flagAliases": []
   }
 ]
