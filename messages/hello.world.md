@@ -10,6 +10,10 @@ Say hello either to the world or someone you know.
 
 The name of the person you'd like to say hello to.
 
+# flags.name.description
+
+This person can be anyone in the world!
+
 # examples
 
 - Say hello to the world:
