@@ -1,41 +1,51 @@
 /*
- * Copyright (c) 2021, salesforce.com, inc.
+ * Copyright (c) 2023, salesforce.com, inc.
  * All rights reserved.
  * Licensed under the BSD 3-Clause license.
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  */
-
-import { expect, test } from '@oclif/test';
-import { HelloWorldResult } from '../../../src/commands/hello/world';
+import { TestContext } from '@salesforce/core/lib/testSetup';
+import { expect } from 'chai';
+import { stubSfCommandUx } from '@salesforce/sf-plugins-core';
+import World from '../../../src/commands/hello/world';
 
 describe('hello world', () => {
-  test
-    .stdout()
-    .command(['hello:world'])
-    .it('runs hello world with no provided name', (ctx) => {
-      expect(ctx.stdout).to.contain('Hello World');
-    });
+  const $$ = new TestContext();
+  let sfCommandStubs: ReturnType<typeof stubSfCommandUx>;
 
-  test
-    .stdout()
-    .command(['hello:world', '--json'])
-    .it('runs hello world with --json and no provided name', (ctx) => {
-      const { result } = JSON.parse(ctx.stdout) as { result: HelloWorldResult };
-      expect(result.name).to.equal('World');
-    });
+  beforeEach(() => {
+    sfCommandStubs = stubSfCommandUx($$.SANDBOX);
+  });
 
-  test
-    .stdout()
-    .command(['hello:world', '--name', 'Astro'])
-    .it('runs hello world --name Astro', (ctx) => {
-      expect(ctx.stdout).to.contain('Hello Astro');
-    });
+  afterEach(() => {
+    $$.restore();
+  });
 
-  test
-    .stdout()
-    .command(['hello:world', '--name', 'Astro', '--json'])
-    .it('runs hello world --name Astro --json', (ctx) => {
-      const { result } = JSON.parse(ctx.stdout) as { result: HelloWorldResult };
-      expect(result.name).to.equal('Astro');
-    });
+  it('runs hello world', async () => {
+    await World.run([]);
+    const output = sfCommandStubs.log
+      .getCalls()
+      .flatMap((c) => c.args)
+      .join('\n');
+    expect(output).to.include('Hello World');
+  });
+
+  it('runs hello world with --json and no provided name', async () => {
+    const result = await World.run([]);
+    expect(result.name).to.equal('World');
+  });
+
+  it('runs hello world --name Astro', async () => {
+    await World.run(['--name', 'Astro']);
+    const output = sfCommandStubs.log
+      .getCalls()
+      .flatMap((c) => c.args)
+      .join('\n');
+    expect(output).to.include('Hello Astro');
+  });
+
+  it('runs hello world --name Astro --json', async () => {
+    const result = await World.run(['--name', 'Astro', '--json']);
+    expect(result.name).to.equal('Astro');
+  });
 });
