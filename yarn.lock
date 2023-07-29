@@ -723,10 +723,10 @@
     widest-line "^3.1.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^2.8.11", "@oclif/core@^2.8.4", "@oclif/core@^2.9.3":
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.9.3.tgz#d20478d03b57713e5a6d9582027f97e83e8be496"
-  integrity sha512-0KLiVpXCJivAjLoj/LAXQf85MtGzyforyPkgNJQEP6QQugnuq2kHcG+DojWEQYz0sADXT2259EdPibslEThUMg==
+"@oclif/core@^2.8.11", "@oclif/core@^2.8.4", "@oclif/core@^2.9.3", "@oclif/core@^2.9.4":
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.11.1.tgz#69c3cfd3d9b2df9fe94c6d16a3c5da59706f078a"
+  integrity sha512-/DHDtm/PoSNvWdJtTv1GUYnrCrlTsEQd1CsXKNfMSylpkeOjbDIbt1w4NYZ50BfAWxpCunf7RmbwxFBpDa5lHQ==
   dependencies:
     "@types/cli-progress" "^3.11.0"
     ansi-escapes "^4.3.2"
@@ -940,7 +940,7 @@
     strip-ansi "6.0.1"
     ts-retry-promise "^0.7.0"
 
-"@salesforce/core@^4.1.3", "@salesforce/core@^4.3.10", "@salesforce/core@^4.3.7", "@salesforce/core@^4.3.8":
+"@salesforce/core@^4.1.3", "@salesforce/core@^4.3.11", "@salesforce/core@^4.3.7", "@salesforce/core@^4.3.8":
   version "4.3.11"
   resolved "https://registry.yarnpkg.com/@salesforce/core/-/core-4.3.11.tgz#3fde6affd77f56ee1915b4a2d594ea424ce84817"
   integrity sha512-rjrS0VoDlNaB4RYKLNZQ8+7QayWh5yTV79apCU9fYe0fR1D1p5tb+GAXe4B7AaOReQ8JOQhPBRMx1uzF3Lqn4A==
@@ -1014,13 +1014,13 @@
     "@salesforce/ts-types" "^2.0.4"
     tslib "^2.6.0"
 
-"@salesforce/plugin-command-reference@^3.0.17":
-  version "3.0.17"
-  resolved "https://registry.yarnpkg.com/@salesforce/plugin-command-reference/-/plugin-command-reference-3.0.17.tgz#0c8b3b1df0ecd6018dda1418c90082e53745ab81"
-  integrity sha512-68UrzG20BzDY12FtIV1W6vPyYF8AhuLrcT0zqBYhIy8Zn4MdkY5Whh5+PnjuShg/tv+z9EENCfZhja3u/k5m2A==
+"@salesforce/plugin-command-reference@^3.0.19":
+  version "3.0.19"
+  resolved "https://registry.yarnpkg.com/@salesforce/plugin-command-reference/-/plugin-command-reference-3.0.19.tgz#48dbc69472032c40013e11f465aa444eb9858c92"
+  integrity sha512-3XaPxHtl1rIGyhQGBweLHBjtO/lIyarD6lPjPKMkaYtsKpWNyeBw+kQQKwQDuZpyKFB1f8mv+SfiWBUu1TySnw==
   dependencies:
-    "@oclif/core" "^2.8.11"
-    "@salesforce/core" "^4.3.10"
+    "@oclif/core" "^2.9.4"
+    "@salesforce/core" "^4.3.11"
     "@salesforce/kit" "^3.0.3"
     "@salesforce/sf-plugins-core" "^3.0.4"
     "@salesforce/ts-types" "^2.0.4"
