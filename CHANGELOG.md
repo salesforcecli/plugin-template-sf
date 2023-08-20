@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/salesforcecli/plugin-template-sf/compare/0.2.1...0.2.2) (2023-08-20)
+
+
+### Bug Fixes
+
+* **deps:** bump tslib from 2.6.1 to 2.6.2 ([da148b4](https://github.com/salesforcecli/plugin-template-sf/commit/da148b47b52ec394e446d6900612a3e159ad5a10))
+
+
+
 ## [0.2.1](https://github.com/salesforcecli/plugin-template-sf/compare/0.2.0...0.2.1) (2023-08-20)
 
 
