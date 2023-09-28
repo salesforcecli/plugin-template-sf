@@ -1,3 +1,9 @@
+## [0.2.4](https://github.com/salesforcecli/plugin-template-sf/compare/0.2.3...0.2.4) (2023-09-28)
+
+### Bug Fixes
+
+- **deps:** bump get-func-name from 2.0.0 to 2.0.2 ([8b5303f](https://github.com/salesforcecli/plugin-template-sf/commit/8b5303f158c437ac1b65d48d3feefa581e2b7cf6))
+
 ## [0.2.3](https://github.com/salesforcecli/plugin-template-sf/compare/0.2.2...0.2.3) (2023-09-17)
 
 ### Bug Fixes
