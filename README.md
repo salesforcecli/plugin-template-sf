@@ -117,7 +117,7 @@ sf plugins
 
 ## `sf hello world`
 
-Say hello either to the world or someone you know.
+Say hello.
 
 ```
 USAGE
@@ -130,7 +130,7 @@ GLOBAL FLAGS
   --json  Format output as json.
 
 DESCRIPTION
-  Say hello either to the world or someone you know.
+  Say hello.
 
   Say hello either to the world or someone you know.
 
@@ -142,6 +142,13 @@ EXAMPLES
   Say hello to someone you know:
 
     $ sf hello world --name Astro
+
+FLAG DESCRIPTIONS
+  -n, --name=<value>  The name of the person you'd like to say hello to.
+
+    This person can be anyone in the world!
 ```
+
+_See code: [src/commands/hello/world.ts](https://github.com/salesforcecli/plugin-template-sf/blob/0.2.6/src/commands/hello/world.ts)_
 
 <!-- commandsstop -->
