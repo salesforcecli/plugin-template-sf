@@ -1,3 +1,9 @@
+## [0.2.10](https://github.com/salesforcecli/plugin-template-sf/compare/0.2.9...0.2.10) (2023-11-12)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/core from 5.3.18 to 5.3.20 ([d7f1091](https://github.com/salesforcecli/plugin-template-sf/commit/d7f1091e2a7a39939e20049fe4f9e316e106f587))
+
 ## [0.2.9](https://github.com/salesforcecli/plugin-template-sf/compare/0.2.8...0.2.9) (2023-10-29)
 
 ### Bug Fixes
