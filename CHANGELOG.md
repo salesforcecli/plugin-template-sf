@@ -1,3 +1,9 @@
+## [1.0.12](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.11...1.0.12) (2024-02-21)
+
+### Bug Fixes
+
+- **deps:** bump ip from 2.0.0 to 2.0.1 ([444b80b](https://github.com/salesforcecli/plugin-template-sf/commit/444b80bd4ba0fb7eb61b4e6fff0651b88e4f98e5))
+
 ## [1.0.11](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.10...1.0.11) (2024-02-18)
 
 ### Bug Fixes
