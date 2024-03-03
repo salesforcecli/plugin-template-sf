@@ -1,3 +1,9 @@
+## [1.0.15](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.14...1.0.15) (2024-03-03)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/core from 6.5.5 to 6.7.0 ([1b73d93](https://github.com/salesforcecli/plugin-template-sf/commit/1b73d93e9fa6bc7020e48bd60437309f2e938dcf))
+
 ## [1.0.14](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.13...1.0.14) (2024-02-25)
 
 ### Bug Fixes
