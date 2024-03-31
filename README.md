@@ -107,8 +107,42 @@ sf plugins
 
 <!-- commands -->
 
-# Command Topics
+- [`sf hello world`](#sf-hello-world)
 
-- [`sf hello`](docs/hello.md) - Commands to say hello.
+## `sf hello world`
+
+Say hello.
+
+```
+USAGE
+  $ sf hello world [--json] [-n <value>]
+
+FLAGS
+  -n, --name=<value>  [default: World] The name of the person you'd like to say hello to.
+
+GLOBAL FLAGS
+  --json  Format output as json.
+
+DESCRIPTION
+  Say hello.
+
+  Say hello either to the world or someone you know.
+
+EXAMPLES
+  Say hello to the world:
+
+    $ sf hello world
+
+  Say hello to someone you know:
+
+    $ sf hello world --name Astro
+
+FLAG DESCRIPTIONS
+  -n, --name=<value>  The name of the person you'd like to say hello to.
+
+    This person can be anyone in the world!
+```
+
+_See code: [src/commands/hello/world.ts](https://github.com/salesforcecli/plugin-template-sf/blob/1.0.22/src/commands/hello/world.ts)_
 
 <!-- commandsstop -->
