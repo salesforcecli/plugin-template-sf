@@ -1,3 +1,9 @@
+## [1.0.24](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.23...1.0.24) (2024-04-12)
+
+### Bug Fixes
+
+- core7, jsforce-node ([#645](https://github.com/salesforcecli/plugin-template-sf/issues/645)) ([9c3e6a2](https://github.com/salesforcecli/plugin-template-sf/commit/9c3e6a26b5e4d8ed632fcbf0939c2b62ca2921f4))
+
 ## [1.0.23](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.22...1.0.23) (2024-04-07)
 
 ### Bug Fixes

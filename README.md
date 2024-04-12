@@ -115,13 +115,14 @@ Say hello.
 
 ```
 USAGE
-  $ sf hello world [--json] [-n <value>]
+  $ sf hello world [--json] [--flags-dir <value>] [-n <value>]
 
 FLAGS
   -n, --name=<value>  [default: World] The name of the person you'd like to say hello to.
 
 GLOBAL FLAGS
-  --json  Format output as json.
+  --flags-dir=<value>  Import flag values from a directory.
+  --json               Format output as json.
 
 DESCRIPTION
   Say hello.
@@ -143,6 +144,6 @@ FLAG DESCRIPTIONS
     This person can be anyone in the world!
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/salesforcecli/plugin-template-sf/blob/1.0.23/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/salesforcecli/plugin-template-sf/blob/1.0.24/src/commands/hello/world.ts)_
 
 <!-- commandsstop -->
