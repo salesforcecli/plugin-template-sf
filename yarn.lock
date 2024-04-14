@@ -1553,7 +1553,7 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3.21.0", "@oclif/core@^3.23.0", "@oclif/core@^3.26.0", "@oclif/core@^3.26.2", "@oclif/core@^3.26.3":
+"@oclif/core@^3.21.0", "@oclif/core@^3.26.0", "@oclif/core@^3.26.2", "@oclif/core@^3.26.3":
   version "3.26.3"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.26.3.tgz#2416f4f5e3e5b9434999edb2f94983c5ac07e8a2"
   integrity sha512-e6Vwu+cb2Sn4qFFpmY1fQLRWIY5ugruMuN94xb7+kyUzxrirYjJATPhuCT1G5xj9Dk+hTMH+Sp6XcHcVTS1lHg==
@@ -1603,12 +1603,12 @@
     semver "^7.6.0"
     ts-json-schema-generator "^1.5.0"
 
-"@oclif/plugin-help@^6.0.18":
-  version "6.0.18"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-6.0.18.tgz#9ba4151b5d77b78a345ad1308620a1fbf9731ac8"
-  integrity sha512-Ly0gu/+eq7GfIMT76cirbHgElYGlu+PaZ5elrAKmDiegBh31AXqaPQAj8PH4+sG8RSv5srYtrkrygZaw8IF9CQ==
+"@oclif/plugin-help@^6.0.21":
+  version "6.0.21"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-6.0.21.tgz#c48e688bf6df574e74557ebe2f877556f08dc60b"
+  integrity sha512-w860r9d456xhw1GPaos9yQF+BZeFY9UKdrINbL3fZFX5ZHhr/zGT4Fep5wUkHogjjnSB8+ZHi3D6j2jScIizUw==
   dependencies:
-    "@oclif/core" "^3.23.0"
+    "@oclif/core" "^3.26.2"
 
 "@oclif/plugin-not-found@^3.0.14":
   version "3.0.14"
@@ -5780,10 +5780,10 @@ object.values@^1.1.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-oclif@^4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/oclif/-/oclif-4.8.1.tgz#a363d1feb3b7c31285b0b4494ce8fb4a2c7748f0"
-  integrity sha512-2UcxQFQOTRC6OsBHR1DnrnCZRfxsER3IfJY2SeA/mVbfYoLCH3l6JohjoTL6HTjpZG8ojZ/igZ3bv1xvYDDy8w==
+oclif@^4.8.3:
+  version "4.8.3"
+  resolved "https://registry.yarnpkg.com/oclif/-/oclif-4.8.3.tgz#33617c373a1732265e672496297d8e5f0b68d609"
+  integrity sha512-FSxiMeIhhRKYZ4mBGWrT5kpMiHq47wquDIPOqtl0hrbvUVBOQXYioDNo8+mjE2DV2Oi2J7Xjkou7Tjdo02zing==
   dependencies:
     "@aws-sdk/client-cloudfront" "^3.535.0"
     "@aws-sdk/client-s3" "^3.550.0"
@@ -5791,7 +5791,7 @@ oclif@^4.8.1:
     "@inquirer/input" "^2.1.1"
     "@inquirer/select" "^2.2.1"
     "@oclif/core" "^3.26.0"
-    "@oclif/plugin-help" "^6.0.18"
+    "@oclif/plugin-help" "^6.0.21"
     "@oclif/plugin-not-found" "^3.0.14"
     "@oclif/plugin-warn-if-update-available" "^3.0.14"
     async-retry "^1.3.3"
