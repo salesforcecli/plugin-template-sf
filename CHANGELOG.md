@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.32...1.1.0) (2024-06-06)
+
+### Features
+
+- use oclif/core 4 ([b90d6bd](https://github.com/salesforcecli/plugin-template-sf/commit/b90d6bd2186c736b422d93f38a1eeefc87905f09))
+
 ## [1.0.32](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.31...1.0.32) (2024-05-26)
 
 ### Bug Fixes
