@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.0...1.1.1) (2024-06-13)
+
+### Bug Fixes
+
+- **deps:** bump braces from 3.0.2 to 3.0.3 ([ac5b75c](https://github.com/salesforcecli/plugin-template-sf/commit/ac5b75ceefac1fbbe75aa2e6726bf0a2710c6cb2))
+
 # [1.1.0](https://github.com/salesforcecli/plugin-template-sf/compare/1.0.32...1.1.0) (2024-06-06)
 
 ### Features
