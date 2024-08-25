@@ -1,3 +1,9 @@
+## [1.1.16](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.15...1.1.16) (2024-08-25)
+
+### Bug Fixes
+
+- **deps:** bump micromatch from 4.0.5 to 4.0.8 ([e3f587a](https://github.com/salesforcecli/plugin-template-sf/commit/e3f587a5b2d24368edf953fca80d2180c36b2dba))
+
 ## [1.1.15](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.14...1.1.15) (2024-08-18)
 
 ### Bug Fixes
