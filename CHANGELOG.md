@@ -1,3 +1,9 @@
+## [1.1.18](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.17...1.1.18) (2024-09-08)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/sf-plugins-core from 11.3.6 to 11.3.7 ([f9a8e48](https://github.com/salesforcecli/plugin-template-sf/commit/f9a8e487d722f848d0e73d41bc571f2f1dde9cc3))
+
 ## [1.1.17](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.16...1.1.17) (2024-09-01)
 
 ### Bug Fixes
