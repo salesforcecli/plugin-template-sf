@@ -1040,7 +1040,7 @@
     "@inquirer/core" "^9.0.10"
     "@inquirer/type" "^1.5.2"
 
-"@inquirer/core@^9.0.10":
+"@inquirer/core@^9.0.10", "@inquirer/core@^9.0.2", "@inquirer/core@^9.0.8":
   version "9.0.10"
   resolved "https://registry.yarnpkg.com/@inquirer/core/-/core-9.0.10.tgz#4270191e2ad3bea6223530a093dd9479bcbc7dd0"
   integrity sha512-TdESOKSVwf6+YWDz8GhS6nKscwzkIyakEzCLJ5Vh6O3Co2ClhCJ0A4MG909MUWfaWdpJm7DE45ii51/2Kat9tA==
@@ -1049,25 +1049,6 @@
     "@inquirer/type" "^1.5.2"
     "@types/mute-stream" "^0.0.4"
     "@types/node" "^22.1.0"
-    "@types/wrap-ansi" "^3.0.0"
-    ansi-escapes "^4.3.2"
-    cli-spinners "^2.9.2"
-    cli-width "^4.1.0"
-    mute-stream "^1.0.0"
-    signal-exit "^4.1.0"
-    strip-ansi "^6.0.1"
-    wrap-ansi "^6.2.0"
-    yoctocolors-cjs "^2.1.2"
-
-"@inquirer/core@^9.0.2", "@inquirer/core@^9.0.8":
-  version "9.0.8"
-  resolved "https://registry.yarnpkg.com/@inquirer/core/-/core-9.0.8.tgz#18458c637879f1ea0c7919b7e9a8786fa2082db9"
-  integrity sha512-ttnI/BGlP9SxjbQnv1nssv7dPAwiR82KmjJZx2SxSZyi2mGbaEvh4jg0I4yU/4mVQf7QvCVGGr/hGuJFEYhwnw==
-  dependencies:
-    "@inquirer/figures" "^1.0.5"
-    "@inquirer/type" "^1.5.1"
-    "@types/mute-stream" "^0.0.4"
-    "@types/node" "^22.0.0"
     "@types/wrap-ansi" "^3.0.0"
     ansi-escapes "^4.3.2"
     cli-spinners "^2.9.2"
@@ -1111,14 +1092,7 @@
     ansi-escapes "^4.3.2"
     yoctocolors-cjs "^2.1.2"
 
-"@inquirer/type@^1.4.0", "@inquirer/type@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@inquirer/type/-/type-1.5.1.tgz#cdd36732e38ea5d2b1a4336aada65ebe7d2765e0"
-  integrity sha512-m3YgGQlKNS0BM+8AFiJkCsTqHEFCWn6s/Rqye3mYwvqY6LdfUv12eSwbsgNzrYyrLXiy7IrrjDLPysaSBwEfhw==
-  dependencies:
-    mute-stream "^1.0.0"
-
-"@inquirer/type@^1.5.2":
+"@inquirer/type@^1.4.0", "@inquirer/type@^1.5.1", "@inquirer/type@^1.5.2":
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@inquirer/type/-/type-1.5.2.tgz#15f5e4a4dae02c4203650cb07c8a000cdd423939"
   integrity sha512-w9qFkumYDCNyDZmNQjf/n6qQuvQ4dMC3BJesY4oF+yr0CxR5vxujflAVeIcS6U336uzi9GM0kAfZlLrZ9UTkpA==
@@ -1348,10 +1322,10 @@
   resolved "https://registry.yarnpkg.com/@salesforce/dev-config/-/dev-config-4.3.1.tgz#4dac8245df79d675258b50e1d24e8c636eaa5e10"
   integrity sha512-rO6axodoRF2SA1kknGttIWuL7HhIwSmweGlBzM8y2m5TH8DeIv4xsqYc8Cu+SrR3JT1FN4nh6XgrogI83AJfKg==
 
-"@salesforce/dev-scripts@^10.2.9":
-  version "10.2.9"
-  resolved "https://registry.yarnpkg.com/@salesforce/dev-scripts/-/dev-scripts-10.2.9.tgz#c107c177de6c8b282d5eee95e1c04e71f80650b6"
-  integrity sha512-kjICKRzDmkyfB78D+mAoOxdKChv5NAAQMzGYqGIPxNHTG2f9J0/sfjEJsWt+4gZAnAD8unS0MsPoKQqi2BDMNg==
+"@salesforce/dev-scripts@^10.2.10":
+  version "10.2.10"
+  resolved "https://registry.yarnpkg.com/@salesforce/dev-scripts/-/dev-scripts-10.2.10.tgz#6aca3c6a0926b5ed0710d1f21a940687ff994e58"
+  integrity sha512-4vYRV5PvssKWfsnOOAXDvYfHaj2M3bCprlGcZBGnPAi52cNzoj9GcOmC1RRrPdQmHL4vWZvSiqgRgVLKQQdfkw==
   dependencies:
     "@commitlint/cli" "^17.1.2"
     "@commitlint/config-conventional" "^17.8.1"
@@ -2088,10 +2062,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^22.0.0":
-  version "22.1.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.1.0.tgz#6d6adc648b5e03f0e83c78dc788c2b037d0ad94b"
-  integrity sha512-AOmuRF0R2/5j1knA3c6G3HOk523Ga+l+ZXltX8SF1+5oqcXijjfTd8fY3XRZqSihEu9XhtQnKYLmkFaoxgsJHw==
+"@types/node@*", "@types/node@^22.1.0":
+  version "22.2.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.2.0.tgz#7cf046a99f0ba4d628ad3088cb21f790df9b0c5b"
+  integrity sha512-bm6EG6/pCpkxDf/0gDNDdtDILMOHgaQBVOJGdwsqClnxA3xL6jtMv76rLBc006RVMWbmaf0xbmom4Z/5o2nRkQ==
   dependencies:
     undici-types "~6.13.0"
 
@@ -2101,13 +2075,6 @@
   integrity sha512-d2ZFc/3lnK2YCYhos8iaNIYu9Vfhr92nHiyJHRltXWjXUBjEE+A4I58Tdbnw4VhggSW+2j5y5gTrLs4biNnubg==
   dependencies:
     undici-types "~5.26.4"
-
-"@types/node@^22.1.0":
-  version "22.2.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.2.0.tgz#7cf046a99f0ba4d628ad3088cb21f790df9b0c5b"
-  integrity sha512-bm6EG6/pCpkxDf/0gDNDdtDILMOHgaQBVOJGdwsqClnxA3xL6jtMv76rLBc006RVMWbmaf0xbmom4Z/5o2nRkQ==
-  dependencies:
-    undici-types "~6.13.0"
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -6712,12 +6679,7 @@ trim-newlines@^3.0.0:
   resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-3.0.1.tgz#260a5d962d8b752425b32f3a7db0dcacd176c144"
   integrity sha512-c1PTsA3tYrIsLGkJkzHF+w9F2EyxfXGo4UyJc4pFL++FMjnq0HJS69T3M7d//gKrFKwy429bouPescbjecU+Zw==
 
-ts-api-utils@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.0.3.tgz#f12c1c781d04427313dbac808f453f050e54a331"
-  integrity sha512-wNMeqtMz5NtwpT/UZGY5alT+VoKdSsOOP/kqHFcUW1P/VRhH2wJ48+DN2WwUliNbQ976ETwDL0Ifd2VVvgonvg==
-
-ts-api-utils@^1.3.0:
+ts-api-utils@^1.0.1, ts-api-utils@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.3.0.tgz#4b490e27129f1e8e686b45cc4ab63714dc60eea1"
   integrity sha512-UQMIo7pb8WRomKR1/+MFVLTroIvDVtMX3K6OUir8ynLyzB8Jeriont2bTAtmNPa1ekAgN7YPDyf6V+ygrdU+eQ==
