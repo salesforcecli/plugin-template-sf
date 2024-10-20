@@ -1,3 +1,9 @@
+## [1.1.24](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.23...1.1.24) (2024-10-20)
+
+### Bug Fixes
+
+- **deps:** bump @oclif/core from 4.0.28 to 4.0.29 ([f56c443](https://github.com/salesforcecli/plugin-template-sf/commit/f56c443158baa9fb6d28acb0c1d8d2e26ed3812c))
+
 ## [1.1.23](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.22...1.1.23) (2024-10-13)
 
 ### Bug Fixes
