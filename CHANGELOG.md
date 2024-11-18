@@ -1,3 +1,9 @@
+## [1.1.26](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.25...1.1.26) (2024-11-18)
+
+### Bug Fixes
+
+- **deps:** bump cross-spawn from 7.0.3 to 7.0.5 ([4d4ccc5](https://github.com/salesforcecli/plugin-template-sf/commit/4d4ccc50235621a53ba891002bc326007f6044e7))
+
 ## [1.1.25](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.24...1.1.25) (2024-11-07)
 
 ### Bug Fixes
