@@ -1,3 +1,9 @@
+## [1.1.62](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.61...1.1.62) (2025-09-07)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/kit from 3.2.3 to 3.2.4 ([d3a9322](https://github.com/salesforcecli/plugin-template-sf/commit/d3a932278738af8ecda5d46e10911cd4e9afeb56))
+
 ## [1.1.61](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.60...1.1.61) (2025-08-24)
 
 ### Bug Fixes
