@@ -1,3 +1,9 @@
+## [1.1.71](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.70...1.1.71) (2025-10-27)
+
+### Bug Fixes
+
+- **deps:** bump @oclif/core from 4.5.6 to 4.7.2 ([90345d7](https://github.com/salesforcecli/plugin-template-sf/commit/90345d737b70616508370dd921fcebc7965798e1))
+
 ## [1.1.70](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.69...1.1.70) (2025-10-26)
 
 ### Bug Fixes
