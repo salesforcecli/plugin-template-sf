@@ -1,3 +1,9 @@
+## [1.1.75](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.74...1.1.75) (2025-12-05)
+
+### Bug Fixes
+
+- **deps:** bump jws from 3.2.2 to 3.2.3 ([f4d6afd](https://github.com/salesforcecli/plugin-template-sf/commit/f4d6afd26fe0a0fa047e1ebbc88b94036c7e598b))
+
 ## [1.1.74](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.73...1.1.74) (2025-11-30)
 
 ### Bug Fixes
