@@ -1,3 +1,9 @@
+## [1.1.83](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.82...1.1.83) (2026-04-05)
+
+### Bug Fixes
+
+- **deps:** bump lodash from 4.17.23 to 4.18.1 ([1dad569](https://github.com/salesforcecli/plugin-template-sf/commit/1dad569e568ad601d987db922059cc022b82d227))
+
 ## [1.1.82](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.81...1.1.82) (2026-04-05)
 
 ### Bug Fixes
