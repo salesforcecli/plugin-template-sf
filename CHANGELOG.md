@@ -1,3 +1,9 @@
+## [1.1.89](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.88...1.1.89) (2026-05-09)
+
+### Bug Fixes
+
+- **deps:** bump fast-xml-builder from 1.1.4 to 1.2.0 ([11bce20](https://github.com/salesforcecli/plugin-template-sf/commit/11bce20695bbaeaea198cc2f517a3c3571d5318e))
+
 ## [1.1.88](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.87...1.1.88) (2026-05-03)
 
 ### Bug Fixes
