@@ -1,3 +1,9 @@
+## [1.1.101](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.100...1.1.101) (2026-06-17)
+
+### Bug Fixes
+
+- **deps:** bump @babel/core from 7.25.2 to 7.29.7 ([ab47b78](https://github.com/salesforcecli/plugin-template-sf/commit/ab47b789fe508f8e7c349698b6174643ab6ed92c))
+
 ## [1.1.100](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.99...1.1.100) (2026-06-17)
 
 ### Bug Fixes
