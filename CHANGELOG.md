@@ -1,3 +1,9 @@
+## [1.1.100](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.99...1.1.100) (2026-06-17)
+
+### Bug Fixes
+
+- **deps:** bump form-data from 4.0.5 to 4.0.6 ([317b03b](https://github.com/salesforcecli/plugin-template-sf/commit/317b03b579a1accac09dfb11b28a715ec8f124bd))
+
 ## [1.1.99](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.98...1.1.99) (2026-06-17)
 
 ### Bug Fixes
