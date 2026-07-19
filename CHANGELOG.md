@@ -1,3 +1,9 @@
+## [1.1.110](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.109...1.1.110) (2026-07-19)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/core from 8.32.2 to 8.32.4 ([75546e3](https://github.com/salesforcecli/plugin-template-sf/commit/75546e313eb2ebedb1194b1a357f3de44588fffe))
+
 ## [1.1.109](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.108...1.1.109) (2026-07-16)
 
 ### Bug Fixes
