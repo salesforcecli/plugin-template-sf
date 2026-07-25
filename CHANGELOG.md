@@ -1,3 +1,9 @@
+## [1.1.111](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.110...1.1.111) (2026-07-25)
+
+### Bug Fixes
+
+- **deps:** bump linkify-it from 5.0.1 to 5.0.2 ([2892c6d](https://github.com/salesforcecli/plugin-template-sf/commit/2892c6da1803431c15afa6045515cecdfbe875bc))
+
 ## [1.1.110](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.109...1.1.110) (2026-07-19)
 
 ### Bug Fixes
