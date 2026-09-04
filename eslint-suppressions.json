@@ -1,12 +1,2 @@
 {
-  "test/commands/hello/world.nut.ts": {
-    "@typescript-eslint/no-unsafe-call": {
-      "count": 5
-    }
-  },
-  "test/commands/hello/world.test.ts": {
-    "@typescript-eslint/no-unsafe-call": {
-      "count": 7
-    }
-  }
 }
