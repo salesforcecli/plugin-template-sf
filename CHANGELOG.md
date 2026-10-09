@@ -1,3 +1,9 @@
+## [1.1.121](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.120...1.1.121) (2026-10-09)
+
+### Bug Fixes
+
+- **deps:** bump handlebars from 4.7.9 to 4.7.10 ([1d113c7](https://github.com/salesforcecli/plugin-template-sf/commit/1d113c7acf93fd207199a665a4c2289caa9952de))
+
 ## [1.1.120](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.119...1.1.120) (2026-10-09)
 
 ### Bug Fixes
