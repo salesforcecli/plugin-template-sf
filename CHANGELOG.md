@@ -1,3 +1,9 @@
+## [1.1.122](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.121...1.1.122) (2026-10-09)
+
+### Bug Fixes
+
+- **deps:** bump fast-copy from 3.0.2 to 3.1.0 ([f79a62d](https://github.com/salesforcecli/plugin-template-sf/commit/f79a62df243ef6b2d8f8bb231c1047c0f5fe38aa))
+
 ## [1.1.121](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.120...1.1.121) (2026-10-09)
 
 ### Bug Fixes
