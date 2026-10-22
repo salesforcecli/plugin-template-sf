@@ -1,3 +1,9 @@
+## [1.1.126](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.125...1.1.126) (2026-10-22)
+
+### Bug Fixes
+
+- **deps:** bump markdown-it from 14.3.1 to 14.3.3 ([aa08420](https://github.com/salesforcecli/plugin-template-sf/commit/aa0842037529b1de64d8262c42ca74ff1c60c87b))
+
 ## [1.1.125](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.124...1.1.125) (2026-10-18)
 
 ### Bug Fixes
