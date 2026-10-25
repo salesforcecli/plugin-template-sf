@@ -1,3 +1,9 @@
+## [1.1.128](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.127...1.1.128) (2026-10-25)
+
+### Bug Fixes
+
+- **deps:** bump undici from 8.11.2 to 8.12.3 ([57cfadb](https://github.com/salesforcecli/plugin-template-sf/commit/57cfadb4a583c784af955458b6fa6f2ae135766f))
+
 ## [1.1.127](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.126...1.1.127) (2026-10-25)
 
 ### Bug Fixes
