@@ -1,3 +1,9 @@
+## [1.1.129](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.128...1.1.129) (2026-10-25)
+
+### Bug Fixes
+
+- **deps:** bump fast-uri from 3.1.8 to 3.1.9 ([044e047](https://github.com/salesforcecli/plugin-template-sf/commit/044e04735120723a52e6b46ff4717d11c1c012a3))
+
 ## [1.1.128](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.127...1.1.128) (2026-10-25)
 
 ### Bug Fixes
