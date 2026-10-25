@@ -1,3 +1,9 @@
+## [1.1.127](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.126...1.1.127) (2026-10-25)
+
+### Bug Fixes
+
+- **deps:** bump zod from 4.1.13 to 4.6.7 ([01f6eab](https://github.com/salesforcecli/plugin-template-sf/commit/01f6eabe2433e7fc045a263b7dff6908af232035))
+
 ## [1.1.126](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.125...1.1.126) (2026-10-22)
 
 ### Bug Fixes
