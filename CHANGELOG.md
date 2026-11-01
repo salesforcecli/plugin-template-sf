@@ -1,3 +1,9 @@
+## [1.1.131](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.130...1.1.131) (2026-11-01)
+
+### Bug Fixes
+
+- **deps:** bump @salesforce/kit from 4.0.1 to 4.0.8 ([b2c884f](https://github.com/salesforcecli/plugin-template-sf/commit/b2c884f3eb59cd0a4cd2fee1131f24f7fe9f98fc))
+
 ## [1.1.130](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.129...1.1.130) (2026-11-01)
 
 ### Bug Fixes
