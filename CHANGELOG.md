@@ -1,3 +1,9 @@
+## [1.1.133](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.132...1.1.133) (2026-11-02)
+
+### Bug Fixes
+
+- **deps:** bump @oclif/core from 5.1.9 to 5.1.10 ([07257ed](https://github.com/salesforcecli/plugin-template-sf/commit/07257edd5a07fbff52bbc2bf835897549853870e))
+
 ## [1.1.132](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.131...1.1.132) (2026-11-01)
 
 ### Bug Fixes
