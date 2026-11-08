@@ -1,3 +1,9 @@
+## [1.1.134](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.133...1.1.134) (2026-11-08)
+
+### Bug Fixes
+
+- **deps:** bump brace-expansion from 1.1.11 to 1.1.21 ([67f3c72](https://github.com/salesforcecli/plugin-template-sf/commit/67f3c72cb86f5d3d7774da468abfc7a04de95ded))
+
 ## [1.1.133](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.132...1.1.133) (2026-11-02)
 
 ### Bug Fixes
