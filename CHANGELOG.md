@@ -1,3 +1,9 @@
+## [1.1.139](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.138...1.1.139) (2026-11-09)
+
+### Bug Fixes
+
+- **deps:** bump picomatch from 2.3.1 to 2.3.2 ([e119cb8](https://github.com/salesforcecli/plugin-template-sf/commit/e119cb884f4f7db026d4220f7e43b81ec3bd9bc5))
+
 ## [1.1.138](https://github.com/salesforcecli/plugin-template-sf/compare/1.1.137...1.1.138) (2026-11-09)
 
 ### Bug Fixes
